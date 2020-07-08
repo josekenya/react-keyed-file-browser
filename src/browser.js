@@ -781,18 +781,8 @@ class RawFileBrowser extends React.Component {
     const ConfirmMultipleDeletionRenderer = this.props.confirmMultipleDeletionRenderer
 
     return (
-      <div className="rendered-react-keyed-file-browser">
-        {this.props.actions}
-        <div className="rendered-file-browser" ref={el => { this.browserRef = el }}>
-          {this.props.showActionBar && this.renderActionBar(selectedItems)}
-          {this.state.activeAction === 'delete' && this.state.selection.length > 1 &&
-            <ConfirmMultipleDeletionRenderer
-              handleDeleteSubmit={this.handleMultipleDeleteSubmit}
-            />}
-         
-        </div>
-        
-      </div>
+      <>
+      </>
     )
   }
 }
