@@ -448,6 +448,7 @@ class RawFileBrowser extends React.Component {
     event.preventDefault()
     this.downloadFile(this.state.selection)
   }
+  
   updateFilter = (newValue) => {
     this.setState({
       nameFilter: newValue,

@@ -37,7 +37,7 @@ jspm_packages
 .node_repl_history
 
 # Built files
-dist/
+dist/react-keyed-file-browser.css.map
 
 # Jekyll
 demo-site/_site/
